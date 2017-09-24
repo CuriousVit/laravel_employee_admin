@@ -5,6 +5,7 @@ namespace App\Console\Commands;
 use Illuminate\Console\Command;
 use App\User;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Hash;
 
 class CreateUsers extends Command
 {
@@ -75,7 +76,7 @@ class CreateUsers extends Command
         User::create([
             'name' => $name,
             'email' => $this->argument('email'),
-            'password' => $this->argument('password'),
+            'password' => Hash::make($this->argument('password')),
         ]);
 
         $this->info(sprintf('User "%s" was successfully created', $name));
