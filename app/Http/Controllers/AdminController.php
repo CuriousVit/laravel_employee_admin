@@ -6,9 +6,8 @@ use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
-    public function showLogin()
+    public function showEmployees()
     {
-        // show the form
-        return \View::make('login');
+        return \View::make('employees');
     }
 }
