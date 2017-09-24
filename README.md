@@ -30,3 +30,6 @@ https://github.com/CuriousVit/laravel_employee_admin.git
 
 ### To run tests: ###
 `./vendor/bin/phpunit`
+
+### Screenshots: ###
+![Employee admin page](https://raw.githubusercontent.com/CuriousVit/laravel_employee_admin/master/public/laravel_employee_admin.PNG)
