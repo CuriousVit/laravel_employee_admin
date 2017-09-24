@@ -18,5 +18,7 @@ Route::get('login', [ 'as' => 'login', 'uses' => 'Auth\LoginController@showLogin
 Route::post('auth/login', 'Auth\LoginController@login');
 Route::post('login', 'Auth\LoginController@login');
 
+Route::get('/logout', 'Auth\LoginController@logout');
+
 Route::get('employees', 'AdminController@showEmployees');
 Route::get('home', 'AdminController@showEmployees');

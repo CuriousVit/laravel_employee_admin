@@ -11,11 +11,6 @@ let mix = require('laravel-mix');
  |
  */
 
-// mix.js('resources/assets/js/app.js', 'public/js')
-//    .sass('resources/assets/sass/app.scss', 'public/css');
-
-console.log('webpack.mix.js');
-
 mix.autoload({
     jquery: ['$', 'window.jQuery',"jQuery","window.$","jquery","window.jquery"]
 });
