@@ -27,9 +27,17 @@ https://github.com/CuriousVit/laravel_employee_admin.git
 * Create a database and inform *.env*
 * `php artisan migrate --seed` to create and populate tables
 * `php artisan serve` to start the app on http://localhost:8000/
+* `php artisan user:create Name email@gmail.com  secure_password` to create a new admin user
 
 ### To run tests: ###
 `./vendor/bin/phpunit`
 
 ### Screenshots: ###
+Employee admin page
 ![Employee admin page](https://raw.githubusercontent.com/CuriousVit/laravel_employee_admin/master/public/laravel_employee_admin.PNG)
+
+Login page:
+![Login admin page](https://raw.githubusercontent.com/CuriousVit/laravel_employee_admin/master/public/laravel_employee_admin_login.PNG)
+
+Result of address validation with GoogleMapsApi:
+![Address validation](https://raw.githubusercontent.com/CuriousVit/laravel_employee_admin/master/public/laravel_employee_admin_address_validation.PNG)
