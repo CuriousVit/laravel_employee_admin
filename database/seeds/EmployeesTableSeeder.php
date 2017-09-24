@@ -18,7 +18,7 @@ class EmployeesTableSeeder extends Seeder
         $faker = \Faker\Factory::create();
 
         // And now, let's create a few articles in our database:
-        for ($i = 0; $i < 50; $i++) {
+        for ($i = 0; $i < 20; $i++) {
             Employee::create([
                 'name' => $faker->name,
                 'date_of_birth' => $faker->date('Y-m-d'),
