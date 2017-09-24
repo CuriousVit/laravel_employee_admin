@@ -44,6 +44,10 @@
   border-top-right-radius: 0;
 }
 
+body {
+  padding-top: 80px;
+}
+
 /*!
  * Bootstrap v4.0.0-beta (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
